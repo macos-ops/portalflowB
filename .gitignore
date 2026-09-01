@@ -1,0 +1,12 @@
+﻿backend/.env
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/migrations/__pycache__/
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+node_modules/
+.expo/
+*.log
