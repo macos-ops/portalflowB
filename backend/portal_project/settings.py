@@ -19,6 +19,12 @@ ALLOWED_HOSTS = config(
     cast=lambda v: [s.strip() for s in v.split(",")],
 )
 
+CSRF_TRUSTED_ORIGINS = config(
+    "CSRF_TRUSTED_ORIGINS",
+    default="https://portalflowb-production.up.railway.app",
+    cast=lambda v: [s.strip() for s in v.split(",")],
+)
+
 
 # Application definition
 
